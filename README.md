@@ -3,7 +3,7 @@ Nintendont Channel Booter
 When this homebrew is run through the Wii U Homebrew Launcher, it will boot the [Nintendont Channel](https://gbatemp.net/threads/nintendont.349258/#Setup) in Wii Mode, skipping controller and screen option prompts. It will also only show the screen on the TV, the GamePad can be turned on when necessary.
 
 ## Usage
-1. Download the package from [Releases](https://github.com/Brawl345/hbl2hbc/releases)
+1. Download the package from [Releases](https://github.com/Brawl345/Nintendont-Channel-Booter/releases)
 2. Put it on your SD card
 3. Launch through the homebrew launcher... but that is not the intended usage!
 
