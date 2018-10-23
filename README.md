@@ -18,5 +18,25 @@ The intended usage is to use this via Coldboot Haxchi so that you can boot Ninte
 2. Optionally, you can also set the screen type on line 40
 3. Compile it with devkitPPC
 
+
+## Building
+
+For building you need: 
+- [dynamic_libs](https://github.com/Maschell/dynamic_libs/tree/lib) for access to the functions.
+- [libutils](https://github.com/Maschell/libutils) for common functions.
+
+Install them (in this order) according to their README's. Don't forget the dependencies of the libs itself.
+
+## Building with Docker
+Without setting up a developing envrionment on your host machine you are still able to build this application via Docker.
+
+```
+# Run this command once to get the builder.
+docker build . -t nintendontbooter-builder
+
+# Run this command to compile the project.
+docker run -it --rm -v ${PWD}:/project nintendontbooter-builder make
+```
+
 ## Credits
 Slightliy modified version of [hbl2hbc](https://github.com/FIX94/hbl2hbc) by FIX94.
